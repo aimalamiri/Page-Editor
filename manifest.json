@@ -2,8 +2,8 @@
   "manifest_version": 3,
   "name": "Page Editor",
   "version": "1.0",
-  "description": "Edit any webpage content with a single click! This elegant extension enables instant content editing with a modern, user-friendly interface. Perfect for quick fixes, content testing, and web content exploration. Features a beautiful circular toggle button and seamless integration with any webpage.",
-  "permissions": ["activeTab", "scripting"],
+  "description": "Edit any webpage content directly with a modern, user-friendly interface.",
+  "permissions": ["activeTab"],
   "content_scripts": [{
     "matches": ["<all_urls>"],
     "js": ["content.js"]
